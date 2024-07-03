@@ -9,9 +9,10 @@ repository = "https://github.com/korken89/smlang-rs"
 version = "0.7.0-switch.2"
 edition = "2018"
 readme = "README.md"
+publish = ["ecog-io"]
 
 [dependencies]
-smlang-macros = { path = "macros", version = "0.7.0-switch.1", registry = "switch-ev" }
+smlang-macros = { path = "macros", version = "0.7.0-switch.1", registry = "ecog-io" }
 async-trait = "0.1"
 
 [dev-dependencies]

@@ -1,0 +1,6 @@
+[registries]
+switch-ev = { index = "ssh://git@github.com/SwitchEV/ktra-registry" }
+ecog-io = { index = "ssh://git@github.com/EcoG-io/ktra-registry" }
+
+[net]
+git-fetch-with-cli = true
